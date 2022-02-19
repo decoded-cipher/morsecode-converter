@@ -1,10 +1,14 @@
-    <form id="demo">
-        <input type="text" pattern="[.\- ]+" name="code" value="-.-. --... ... -.- -.--">
-        <button>Play</button>
-    </form>
-
+    <section class="container pt-5">
+        <div class="p-5 text-center">
+            <form id="demo">
+                <input type="text" pattern="[.\- ]+" name="code" value="-.-. --... ... -.- -.--">
+                <button>Play</button>
+            </form>
+        </div>
+    </section>
 
     <script>
+
         var AudioContext = window.AudioContext || window.webkitAudioContext;
         var ctx = new AudioContext();
         var dot = 1.2 / 15;
@@ -41,9 +45,9 @@
 
             oscillator.connect(gainNode);
             gainNode.connect(ctx.destination);
-
             oscillator.start();
 
             return false;
         }
+
     </script>
