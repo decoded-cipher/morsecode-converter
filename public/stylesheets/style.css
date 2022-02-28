@@ -1,0 +1,49 @@
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+textarea {
+    text-align: center;
+}
+
+textarea::placeholder {
+    opacity: 0.5;
+  }
+
+.form-control {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 1000px) {
+    .input-fields {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .hgt-adjst {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
