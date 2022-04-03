@@ -1,5 +1,5 @@
 # Morse Code Converter
-A simple **Morse Code Generator** that converts data from and to Morse Code, both visually and in sound. The converter fields could accept either Text (English) or Morse Code and could convert them to one another. The both scenarios the audio played will be of the Morse Code.
+A simple **Morse Code Converter** that converts data from and to Morse Code, both visually and in sound. The converter fields could accept either Text (English) or Morse Code and could convert them to one another. The both scenarios the audio played will be of the Morse Code.
 
 Here in this project, Morse Code is represented visually using _periods **(.)**_ and _hyphens **(-)**_. The input fields aren't case sensitive. But while converting Morse Code back to text, it displays result as in Uppercase.
 
